@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+main {
+  background-color: white;
+}
+.textoclaro {
+  color: #b6b6b6;
+}
+header {
+  text-align: left;
+}
+header p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding-top: 10px;
+  padding-left: 7.8vw;
+  padding-bottom: 15px;
+  border-bottom: solid rgba(173, 173, 173, 0.356);
+  border-bottom-width: 1px;
+  position: relative;
+}
+
+#logo {
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-bottom: 3rem;
+}
+/*.cu2 {
+  width: 4%;
+  padding: 2rem;
+}
+*/
+
+nav {
+  font-family: Calibri;
+  padding: 2rem 2rem 2rem 10rem;
+
+  background-color: #262f36;
+}
+nav > a {
+  color: white;
+  font-size: 2rem;
+  line-height: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+nav > a:hover {
+  background-color: #576c7c;
+  border-radius: 20px;
+}
+
+main {
+  background-image: url(1background-9.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+
+  background-size: 100%;
+  height: 40vw;
+}
+.medicostxt1 {
+  
+  font-family: Calibri;
+  font-size: 2.86vw;
+  padding: 2.5vw 4.5vw 2.5vw 6.8vw;
+  text-align: right;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.685);
+  font-weight: lighter;
+  position: relative;
+  top: 20vw;
+}
+.medicostxt2 {
+  font-size: 2.55vw;
+}
+.wrap-menu {
+  display: none;
+}
+.container2{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(50rem, 100%), 1fr));
+  height: 18vw;
+  font-size: 1.59vw;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+
+
+}
+
+.itemfunc{
+ 
+  background-image: url(1.fw.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3.5vw;
+}
+.itemcomp{
+
+  background-image: url(2.fw.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3.5vw;
+  }
+  .itemacompa{
+
+    background-image: url(3.fw.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3.5vw;
+  }
+  .itemtext{
+    text-transform: none;
+    font-size: 1.21vw;
+  }
+
+ .centro{
+   display: inline-block;
+   background-image: url(centromedico.fw.png);
+   width: 50%;
+   height: 30vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .centro2{
+   width: 50%;
+   float: right;
+   height: 30vw;
+
+   
+   background-color: #f1f1f121
+   
+ }
+ .sobreconheca{
+   margin-top: 10rem;
+   padding-left: 10rem;
+   
+ }
+ .sobre{
+   font-size: 2.08vw;
+   color: #666666;
+   font-family: arial;
+   font-weight: bold;
+   
+ }
+ .conheca{
+
+  position: relative;
+  top: 1rem;
+  font-size: 2.08vw;
+  color: #3DA659;
+  font-family: arial;
+  font-weight: lighter;
+ }
+
+ .saiba{
+   text-decoration: none;
+   font-size: 20px;
+    position: absolute;
+    top: 180rem;
+    left: 110rem;
+    background-color: #3DA85A;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.04vw;
+    padding: 1rem;
+ }
+
+ .container2{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(50rem, 100%), 1fr));
+  height: 18vw;
+  font-size: 1.59vw;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+
+
+}
+
+.footer1{
+background-color: #262f36;
+color: white;
+font-size: 1.041vw;
+text-align: center;
+padding: 2rem;
+}
+  
+  
+@media (max-width: 1507px) {
+  img {
+    width: 40rem;
+  }
+  html {
+    font-size: 35%;
+  }
+  main {
+    background-image: url(background\ pequeno.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-size: 100%;
+  }
+  .container2{
+
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 1.59vw;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+  @media (max-width: 420px) {
+    
+    .wrap-menu {
+      display: block;
+    }
+    img {
+      width: 40rem;
+    }
+
+    nav {
+      display: none;
+    }
+    main {
+      background-image: url(background\ pequeno.png);
+      background-repeat: no-repeat;
+      position: static;
+
+      background-size: cover;
+      background-size: 100%;
+    }
+    .medicostxt1 {
+      font-family: Calibri;
+      font-size: 6.86vw;
+      padding: 2.5vw 0vw 2.5vw 0vw;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.685);
+      font-weight: lighter;
+      position: static;
+
+    }
+    .medicostxt2 {
+      font-size: 6vw;
+    }
+    .container2{
+      
+      display: inline-block;
+      font-size: 1.59vw;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+  }
+  
+  .itemtext {
+
+    font-size: 2.59rem;
+  }
+  .footer1{
+
+    background-color: #262f36;
+    color: white;
+    font-size: 2.541vw;
+    text-align: center;
+    padding: 2rem;
+    }
+  
+}
+}

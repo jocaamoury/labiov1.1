@@ -1,0 +1,18 @@
+.btnMenu{
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    display: block;
+    text-indent: -9999px;
+    padding: 20px 15px;
+}
+.btnMenu_open {
+    background-image: url(hambu.svg);
+    background-color: #262f36;
+
+
+}
+.btnMenu_close{
+    background-color: #262f36;
+    background-image: url(hambusair.svg);
+
+}
